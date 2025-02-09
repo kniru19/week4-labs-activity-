@@ -1,0 +1,6 @@
+"homepage": "https://<username>.github.io/<repository>",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
+  // ... other scripts
+}
